@@ -40,6 +40,7 @@ public class StudentServiceImpl implements StudentService {
 				vo.setStTel(line.split(":")[4]);
 				stList.add(vo);
 			}
+			
 			for (StudentVO stVO : newList) {
 				stList.add(stVO);
 			}
@@ -58,7 +59,6 @@ public class StudentServiceImpl implements StudentService {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-
 	}
 
 	@Override

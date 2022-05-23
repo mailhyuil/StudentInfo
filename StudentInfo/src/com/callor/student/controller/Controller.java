@@ -14,8 +14,6 @@ public class Controller {
 		Scanner scan = new Scanner(System.in);
 		StudentServiceImpl service = new StudentServiceImpl();
 
-		System.out.println("저장된 학생 리스트");
-
 		while (true) {
 			vo = new StudentVO();
 			System.out.print("번호 입력 (QUIT:종료) > ");
